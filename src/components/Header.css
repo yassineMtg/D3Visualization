@@ -1,0 +1,35 @@
+/* src/components/Header.css */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    padding: 12px 0;
+    z-index: 999;
+    border-bottom: 1px solid #444;
+  }
+  
+  .fixed-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fixed-header ul li {
+    margin: 0 15px;
+  }
+  
+  .fixed-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .fixed-header ul li a.active {
+    color: #ffd700;
+    text-decoration: underline;
+  }
+  
